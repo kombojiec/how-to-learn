@@ -316,7 +316,7 @@
   line-height: 30px;
 }
 
-.footer__column-links{
+.footer__column-link{
   margin: 0 0 16px;
   padding: 0;
   font-size: 18px;
@@ -325,7 +325,7 @@
   color:#ffffff;
 }
 
-.footer__column-links:hover{
+.footer__column-link:hover{
   color: #2f80ed;
 }
 
