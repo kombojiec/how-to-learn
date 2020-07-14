@@ -280,7 +280,8 @@
 
 /* ===============footer======================== */
 .footer{
-  min-height: 350px;
+  padding: 60px 0 40px;
+  min-height: 250px;
   background-color: #1f1f1f;
   color: #ffffff;
 }
@@ -289,7 +290,6 @@
   justify-content: space-between;
   width: 90%;  
   margin: 0 auto;
-  padding: 60px 0 40px;
 }
 
 .footer__column{
