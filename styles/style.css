@@ -39,7 +39,7 @@
   width: 730px;
   padding-left: 64px;
   font-size: 102px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 96px;
   z-index: 2;
 }
@@ -119,15 +119,15 @@
   margin: 0;
   font-size: 24px;
   line-height: 34px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .two-columns__paragraph:last-child{
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent{
-  font-weight: 700;
+  font-weight: 600;
 }
 
 
@@ -136,16 +136,16 @@
   padding: 100px 0;
 }
 
-.digits-title{
+.section-title{
   width: 60%;
   margin: 0 auto 20px;
   text-align: center;
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 69px;
 }
 
-.digits-subtitle{
+.section-subtitle{
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -159,6 +159,7 @@
   flex-wrap: wrap;
   width: 1100px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .table__cell{
@@ -171,7 +172,7 @@
 .table__heading{
   margin: 0;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.15;
 }
 
@@ -185,7 +186,7 @@
 /* ===============feynman======================== */
 .feynman{
   position: relative;
-  padding: 100px;
+  padding-top: 100px;
   min-height: 790px;
   background: #f2f2f2 url("../images/feynman.png") no-repeat  left bottom;
   background-size: 867px 637px;
@@ -197,7 +198,7 @@
   padding-bottom: 70px;
   text-align: center;
   font-size: 120px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.15;
 }
 
@@ -237,11 +238,11 @@
   margin: 0 auto 20px;
   text-align: center;
   font-size: 69px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 69px;
 }
 
-.kaufman-title_theme_dark{
+.section-title_theme_dark{
   color: #ffffff;
 }
 
@@ -254,7 +255,7 @@
   line-height: 1.15;
 }
 
-.kaufman-subtitle_theme_dark{
+.section-subtitle_theme_dark{
   color: #ffffff;
 }
 
@@ -312,8 +313,12 @@
 .footer__column-heading{
   margin: 0 0 20px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 30px;
+}
+
+.footer__column-links{
+  padding: 0;
 }
 
 .footer__column-link{
