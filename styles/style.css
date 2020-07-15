@@ -106,6 +106,7 @@
   margin: 0;
   width: 175px;
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.2;
   color: #2f80ed;
 }
@@ -311,13 +312,14 @@
 }
 
 .footer__column-heading{
-  margin: 0 0 20px;
+  margin: 0;
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
 }
 
 .footer__column-links{
+  margin: 20px 0 16px;
   padding: 0;
 }
 
