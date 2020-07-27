@@ -1,22 +1,18 @@
-.page {
-  min-width: 1100px;
+/* .page {
+  min-width: 1100px; */
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
+  /* max-width: 1600px; */
   /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  /* font-family: 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 400;
   color: #000000;
-}
-
-/* p, h2, h3, h4, h5{
-  margin: 0;
 } */
 
 /* ===============header======================== */
-.header {
+/* .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,17 +20,17 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2;
+  background-color: #f2f2f2; */
   /* выше установили ограничения для секции */  
-}
+/* } */
 
-.logo_place_header{
+/* .logo_place_header{
   position: absolute;
   top: 30px;
   left: 64px;
-}
+} */
 
-.header__title{
+/* .header__title{
   margin: 0;
   width: 730px;
   padding-left: 64px;
@@ -42,11 +38,11 @@
   font-weight: 600;
   line-height: 96px;
   z-index: 2;
-}
+} */
 
 
 
-.header__subtitle{
+/* .header__subtitle{
   display: inline;
   position: absolute;
   bottom: 30px;
@@ -56,35 +52,35 @@
   width: 388px;
   font-size: 18px;
   line-height: 25px;
-}
+} */
 
-.header__link{
+/* .header__link{
   text-decoration: none;
   color: #2f80ed;
 }
 
 .header__link:hover{
   color: #000000;
-}
+} */
 
-.header__main-illustration{
+/* .header__main-illustration{
   position: absolute;
   bottom: 0;
   right: 0;
   width: 765px;
   height: 608px;
   z-index: 1;
-}
+} */
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+/* .header__square-pic {
   position: absolute;
   top: 64px;
   right: 0;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-}
+} */
 
 
 /* ===============description======================== */
