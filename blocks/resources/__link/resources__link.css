@@ -1,0 +1,6 @@
+.resources__link{
+  transition: background-color linear 0.5s;
+}
+.resources__link:hover{
+  background-color: rgba(242, 242, 242, 0.7);  
+}
